@@ -151,7 +151,7 @@ def generate_consideration(analysis, description):
     return consideration
 
 
-st.title('Automatic CSV analyser')
+st.title('CSV auto analyser')
 user_api_key = st.sidebar.text_input(
     label="OpenAI API key",
     placeholder="Paste your OpenAI API key here",
